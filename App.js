@@ -14,6 +14,7 @@ export default function App() {
           <Switch value={colorScheme=='dark'} onChange={toggleColorScheme} />
       </View>
       <Text className="dark:text-white">Open your mind!</Text>
+      <View className="h-48 w-full bg-sky-400 dark:bg-emerald-500 mt-5"></View>
     </View>
   );
 }
